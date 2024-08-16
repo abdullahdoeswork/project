@@ -1,0 +1,122 @@
+
+
+.careers-hero-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careers-hero1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10rem 0px 2rem;
+    padding: 0 1.5rem;
+    width:80vw;
+    gap: 1rem;
+    box-sizing: border-box;
+    background-color: #8f50f598;
+}
+
+.careers-hero-title1 {
+    grid-column: span 2;
+    grid-row: 1;
+    height: fit-content;
+}
+.careers-hero-text1 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.person-svg {
+    grid-column-end: span 2;
+    margin: auto;
+    grid-row: 3;
+    height: 10rem;
+    padding-bottom: 20px;
+}
+
+
+.careers-hero2 {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1.5rem;
+    width:80vw;
+    gap: 1rem;
+    box-sizing: border-box;
+    background-color:  #f19833a4;
+}
+
+.careers-hero-title2 {
+    grid-column: span 2;
+    grid-row: 1;
+    height: fit-content;
+}
+.careers-hero-text2 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+
+.careers-hero3 {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1.5rem;
+    width:80vw;
+    gap: 1rem;
+    box-sizing: border-box;
+    background-color:#5bc5cfa1;
+}
+
+.careers-hero-title3 {
+    grid-column: span 2;
+    grid-row: 1;
+    height: fit-content;
+}
+.careers-hero-text3 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+
+.careers-hero4 {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1.5rem;
+    width:80vw;
+    gap: 1rem;
+    box-sizing: border-box;
+    background-color: #e84fb395;
+}
+
+.careers-hero-title4 {
+    grid-column: span 2;
+    grid-row: 1;
+    height: fit-content;
+}
+.careers-hero-text4 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .careers-hero-text {
+        grid-column: span 5;
+    }
+
+    .career-hero-title {
+        grid-column: span 8;
+    }
+
+    .career-hero {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .person-svg {
+        grid-column: 6 / -1;
+        grid-row: span 2;
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Real Project</title>
+    <meta charset="UTF-8">
+    <meta name="Summary" content="Free Web Design">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Webdesign, ">
+    <meta name="Author" content="Abdullah Asad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="typography.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <img src="./svgs/logo.svg" alt="logo" class="logo" onclick="homeUrl()">
+        <div class="navbarText">
+            <a href="./main-features.html" rel="noopener noreferrer">Features</a>
+        </div>
+        <div class="navbarText">
+            <a href=".//main-pricing.html"  rel="noopener noreferrer">Pricing</a>
+        </div>
+        <div class="navbarText">
+            <a href="./main-careers.html"  rel="noopener noreferrer">Careers</a>
+        </div>
+
+        <button id="navbarButton">
+            <img src="./svgs/navbar-menu.svg">
+        </button>
+
+        <div class="dropdownContent">
+            <div class="navbar-dropdown-content"
+             onclick="featuresUrl()" rel="noopener noreferrer">
+                <a class="b">Features</a>
+            </div>
+            <div class="navbar-dropdown-content"
+            onclick="pricingUrl()"   rel="noopener noreferrer">
+                <a class="b">Pricing</a>
+            </div>
+            <div class="navbar-dropdown-content"
+            onclick="careersUrl()"  rel="noopener noreferrer" >
+                <a class="b">Careers</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 style="font-size: 200%;">The Easiest Way to Manage Projects</h1>
+                <a style="color: #282a2e">From the small stuff to the big picture, organizes the work so teams know what
+                    to do, why it matters, and how to get it done.
+                </a>
+
+            </div>
+
+            <button id="hero-button"  onclick="inProductionUrl()"  rel="noopener noreferrer">
+                Get Started
+            </button>
+
+        </div>
+
+        <img class="hero-image" src="./svgs/hero-item.svg">
+
+    </div>
+
+
+    <div class="card-container">
+
+        <div class="card-heading">
+            <h1>Unlock Your Coding Potential</h1>
+            <a>Explore our resources and tools designed to enhance your programming skills. Whether you're looking for solutions, tips, or inspiration, we provide the support you need to excel in every project.
+            </a>
+        </div>
+
+        <div class="card-info-container">
+
+            <div class="card-info">
+                <img src="./svgs/item-1.svg" class="card-item-svgs">
+                <h3> Code with Confidence</h3>
+                <a>Empower your projects with robust code examples and best practices. Let's turn your ideas into reality!</a>
+            </div>
+
+            <div class="card-info">
+                <img src="./svgs/item-2.svg" class="card-item-svgs">
+                <h3> Learn, Code, Succeed</h3>
+                <a>Discover tips and tricks to enhance your coding skills. Your journey to becoming a better coder starts here.</a>
+            </div>
+
+            <div class="card-info">
+                <img src="./svgs/item-3.svg" class="card-item-svgs">
+                <h3> Solutions at Your Fingertips</h3>
+                <a>Find the answers you need with our extensive code library. Quick solutions to keep your projects moving forward.</a>
+            </div>
+
+            <div class="card-info">
+                <img src="./svgs/item-4.svg" class="card-item-svgs">
+                <h3> Boost Your Skills</h3>
+                <a>Sharpen your programming expertise with our curated resources. Grow your abilities and tackle new challenges confidently.</a>
+            </div>
+
+            <div class="card-info">
+                <img src="./svgs/item-5.svg" class="card-item-svgs">
+                <h3> Code Smarter, Not Harder</h3>
+                <a>Simplify your development process with our optimized code snippets. Efficiency and clarity in every line.</a>
+            </div>
+
+            <div class="card-info">
+                <img src="./svgs/item-6.svg" class="card-item-svgs">
+                <h3> Your Coding Companion</h3>
+                <a>Rely on our support to guide you through complex coding problems. We’re here to help you succeed, one line at a time.</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-logo">
+            <img src="./svgs/logo.svg">
+        </div>
+
+        <div class="footer-heading footer-heading1">
+            <h6>
+                Integrations
+            </h6>
+        </div>
+        <div class="footer-heading footer-heading2">
+            <h6>
+                Product
+            </h6>
+        </div>
+        <div class="footer-heading footer-heading3">
+            <h6>
+                About
+            </h6>
+        </div>
+
+        <div class="footer-about footer-about1">
+            <a  href="./main-features.html" rel="noopener noreferrer">Salesforce</a>
+            <a  href="./main-features.html" rel="noopener noreferrer">HubSpot</a>
+            <a  href="./main-features.html" rel="noopener noreferrer">Snowflake</a>
+            <a  href="./main-features.html" rel="noopener noreferrer">Looker</a>
+            <a  href="./main-features.html" rel="noopener noreferrer">Tableau</a>
+
+        </div>
+        <div class="footer-about footer-about2">
+            <a   href="./main-features.html" rel="noopener noreferrer">Overview</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Pricing</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Google Sheets Dashboards</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Simple Templates</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Calculators</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Data Security</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Help Center</a>
+        </div>
+        <div class="footer-about footer-about3">
+         <a>Company<a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Careers</a>
+            <a    href="./main-features.html" rel="noopener noreferrer">Affiliate Programs</a>
+            <a  href="./main-features.html" rel="noopener noreferrer">Contact Us</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Blog</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Privacy Policy</a>
+            <a   href="./main-features.html" rel="noopener noreferrer">Terms</a>
+        </div>
+
+        <div class="footer-socials">
+            <div class="footer-socials-imgs">
+                <img src="./svgs/instagram.svg">
+                <img src="./svgs/linkedin.svg">
+                <img src="./svgs/facebook.svg">
+                <img src="./svgs/github.svg">
+
+            </div>
+
+            <a> © Copyright 2024 
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
